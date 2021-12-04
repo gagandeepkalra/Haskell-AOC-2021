@@ -1,5 +1,7 @@
 module Day01 (solve) where
   
+-- https://adventofcode.com/2021/day/1  
+
 part1:: [Int] -> Int
 part1 = 
   let
