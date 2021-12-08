@@ -51,6 +51,6 @@ part2 pairs =
   
   
 solve:: String -> IO ()
-solve input = putStrLn "--- Day 04 ---" >> print (part1 parsed) >> print (part2 parsed)
+solve input = putStrLn "--- Day 05 ---" >> print (part1 parsed) >> print (part2 parsed)
     where parsed = parse input
 
