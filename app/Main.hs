@@ -9,6 +9,7 @@ import qualified Day05 (solve)
 import qualified Day06 (solve)
 import qualified Day07 (solve)
 import qualified Day08 (solve)
+import qualified Day09 (solve)
 import System.Environment
 
 solutions = Map.fromList
@@ -19,7 +20,8 @@ solutions = Map.fromList
   ("05", Day05.solve),
   ("06", Day06.solve),
   ("07", Day07.solve),
-  ("08", Day08.solve)]
+  ("08", Day08.solve),
+  ("09", Day09.solve)]
 
 solveSingle :: String -> IO ()
 solveSingle s = case Map.lookup s solutions of
