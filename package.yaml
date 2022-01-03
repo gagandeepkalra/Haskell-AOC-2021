@@ -24,6 +24,15 @@ dependencies:
 - containers
 - array
 - split
+- vector
+- text
+- mtl
+- split
+- multiset
+- containers
+- megaparsec
+- unordered-containers
+- pqueue
 
 library:
   source-dirs: src

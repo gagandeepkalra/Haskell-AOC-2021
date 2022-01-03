@@ -39,6 +39,7 @@ library
       Day12
       Day13
       Day14
+      Day15
       Lib
   other-modules:
       Paths_advent_of_code_y2021_haskell
@@ -48,7 +49,14 @@ library
       array
     , base >=4.7 && <5
     , containers
+    , megaparsec
+    , mtl
+    , multiset
+    , pqueue
     , split
+    , text
+    , unordered-containers
+    , vector
   default-language: Haskell2010
 
 executable advent-of-code-y2021-haskell-exe
@@ -63,7 +71,14 @@ executable advent-of-code-y2021-haskell-exe
     , array
     , base >=4.7 && <5
     , containers
+    , megaparsec
+    , mtl
+    , multiset
+    , pqueue
     , split
+    , text
+    , unordered-containers
+    , vector
   default-language: Haskell2010
 
 test-suite advent-of-code-y2021-haskell-test
@@ -79,5 +94,12 @@ test-suite advent-of-code-y2021-haskell-test
     , array
     , base >=4.7 && <5
     , containers
+    , megaparsec
+    , mtl
+    , multiset
+    , pqueue
     , split
+    , text
+    , unordered-containers
+    , vector
   default-language: Haskell2010
